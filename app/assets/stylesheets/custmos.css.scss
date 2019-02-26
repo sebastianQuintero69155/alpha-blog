@@ -1,2 +1,82 @@
-@import "bootstrap-sprockets";
+$navbar-default-bg: black;
+
+
 @import "bootstrap";
+
+#logo {
+    float: left;
+    font-size: 1.7em;
+    color:blue;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#logo:hover {
+    color: chartreuse;
+    text-decoration: none;
+}
+
+.center {
+    text-align: center;
+}
+.jumbotron {
+    background-image: asset-url('531360_06c4.jpg');
+    background-size: cover;
+    height:550px;
+}
+
+.jumbotron h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+.btn-xlarge {
+    font-size: 1.7em;
+    background-color: black;
+}
+
+.navbar {
+    background-color: black !important;   
+}
+
+.navbar .navbar-nav li a {
+    color: white !important;
+}
+
+.navbar .nav-item .dropdown-menu a{
+    color: black !important;
+}
+.navbar .nav-item .dropdown-menu a:hover{
+    color: white !important;
+    background-color: rgb(131, 131, 131);
+    opacity: 0,5;
+}
+
+footer{
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 1px solid white;
+    color: grey; 
+
+}
+
+footer a:hover{
+    color: yellow;
+}
+
+small{
+    float: left;
+}
+
+footer ul{
+    float: right;
+    list-style: none;
+}
+
+footer ul li{
+    float: left;
+    margin-left: 15px;
+}
