@@ -55,9 +55,20 @@ $navbar-default-bg: black;
     opacity: 0,5;
 }
 
-.article-actions{
+.article-actions {
     border-top: 1px solid white;
-    padding-top: 5px;
+    padding-top: 5px;    
+}
+
+.article-title {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.article-body {
+    border-top: 1px solid white;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .description{
@@ -98,4 +109,10 @@ footer ul li{
     color:rgb(150, 10, 10);
     background-color:rgb(255, 226, 226);
     opacity: 0,2;
+}
+
+.title-description{
+    background-color:  rgb(241, 241, 241);
+    margin-top: 20px;
+    padding-top: 5px;
 }
